@@ -72,14 +72,6 @@ export function Home() {
 
   }, []); 
 
-  const settings = {
-    dots: true,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  };
-
   return (
 
     <div id="page-home" className="texto-protegido"> 
