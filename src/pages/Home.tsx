@@ -128,7 +128,7 @@ export function Home() {
 
         <Link id="button-all-projects" to="#"> Ver mais </Link>
 
-        <ButtonNext nextSection="#footer"/>
+        <ButtonNext nextSection="#skills"/>
 
       </section>
 

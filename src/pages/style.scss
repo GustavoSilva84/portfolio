@@ -9,10 +9,11 @@
 
   display: flex;
   min-height: 100vh;
+  height: fit-content;
   flex-direction: column;
-
+  
   .section {
-
+    
     opacity: 0;
     transform: translate3d(-200px, 0, 0);
     transition: 1s;
@@ -21,7 +22,8 @@
     justify-content: center;
     align-items: center;
     position: relative;
-
+    padding-bottom: 70px !important;
+    
   }
 
   .show {
@@ -292,6 +294,12 @@
       flex-direction: column-reverse;
       justify-content: left;
 
+      img {
+
+        object-fit: cover;
+
+      }
+
     }
 
     #about-me  {
@@ -397,6 +405,64 @@
       }
 
     }
+
+  }
+
+  @media (max-width: 350px) {
+    
+    #skills {
+
+      .card {
+
+        margin: 0 0 50px 0 !important;
+        padding: 0 20px !important;
+
+        img {
+            
+          width: 70px !important;
+          height: 70px !important;
+          margin-bottom: 20px;
+    
+        }
+      
+      }
+
+
+    }
+
+  }
+
+  @media (max-height: 840px) {
+
+    #start {
+
+      img {
+
+        height: 340px;
+        max-width: 500px;  
+
+      }
+
+    }
+
+    #about-me {
+
+      h2 {
+  
+        margin-bottom: 20px;
+        line-height: 30px !important;
+        font-size: 25px;
+    
+      }
+    
+      p {
+        
+        font-size: 12px;
+    
+      }  
+
+    }
+
 
   }
 
