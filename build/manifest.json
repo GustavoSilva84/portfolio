@@ -1,0 +1,25 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/logo.png?alt=media&token=d8690fbf-a301-4955-ac38-b24998e65900",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/logo.png?alt=media&token=d8690fbf-a301-4955-ac38-b24998e65900",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/logo.png?alt=media&token=d8690fbf-a301-4955-ac38-b24998e65900",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000"
+}

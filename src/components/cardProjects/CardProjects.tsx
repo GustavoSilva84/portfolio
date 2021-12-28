@@ -18,7 +18,7 @@ export function CardProjects({ title, tags, description }: interfaceinterfaceCar
 
     <div className="card-projects">
 
-      <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/photo-1593720219276-0b1eacd0aef4.jpg?alt=media&token=092d29cd-cfb4-45a8-b76e-0186c3853737"/>
+      <img alt="img" src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/photo-1593720219276-0b1eacd0aef4.jpg?alt=media&token=092d29cd-cfb4-45a8-b76e-0186c3853737"/>
       <div id="contents">
         <h3> { title } </h3>
         <ul id="tags"> { tagsLi } </ul>

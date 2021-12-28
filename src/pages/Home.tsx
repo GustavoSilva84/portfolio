@@ -139,32 +139,32 @@ export function Home() {
         <div id="container-contents">
 
           <div className="card">
-            <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/8342yr4e23.svg?alt=media&token=5b8de4e0-7591-49b4-982b-af6230f8cbde"/>
+            <img alt="img" src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/8342yr4e23.svg?alt=media&token=5b8de4e0-7591-49b4-982b-af6230f8cbde"/>
             <span> JavaScript </span>
           </div>
 
           <div className="card">
-            <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/a8e2edqwd.svg?alt=media&token=2d691a7a-256e-4e36-ba22-17f0ea3e0c83"/>
+            <img alt="img" src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/a8e2edqwd.svg?alt=media&token=2d691a7a-256e-4e36-ba22-17f0ea3e0c83"/>
             <span> TypeScript </span>
           </div>
 
           <div className="card">
-            <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/ii9qasuq8.svg?alt=media&token=15e4a127-1a93-49ac-9915-d214e8861372"/>
+            <img alt="img" src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/ii9qasuq8.svg?alt=media&token=15e4a127-1a93-49ac-9915-d214e8861372"/>
             <span> react js </span>
           </div>
 
           <div className="card">
-            <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/354t2.svg?alt=media&token=05312eb8-a4b8-49b1-a0a9-2ec94cc5b9b2"/>
+            <img alt="img" src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/354t2.svg?alt=media&token=05312eb8-a4b8-49b1-a0a9-2ec94cc5b9b2"/>
             <span> git </span>
           </div>
 
           <div className="card">
-            <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/nodejs-icon.svg?alt=media&token=58628b57-eddf-454b-b9c8-963cf56097b7"/>
+            <img alt="img" src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/nodejs-icon.svg?alt=media&token=58628b57-eddf-454b-b9c8-963cf56097b7"/>
             <span> nodejs </span>
           </div>
 
           <div className="card">
-            <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/sass-1.svg?alt=media&token=db0fbf32-ca20-40ca-ab1d-c720431cb5ab"/>
+            <img alt="img" src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/sass-1.svg?alt=media&token=db0fbf32-ca20-40ca-ab1d-c720431cb5ab"/>
             <span> Sass </span>
           </div>
           
