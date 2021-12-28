@@ -1,25 +1,25 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Gustavo portfólio",
+  "name": "Gustavo portfólio",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/logo.png?alt=media&token=d8690fbf-a301-4955-ac38-b24998e65900",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/logo.png?alt=media&token=d8690fbf-a301-4955-ac38-b24998e65900",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/uy87wsyqs7.svg?alt=media&token=b5f3038a-3747-4997-8340-53281bcea676",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#041F31",
+  "background_color": "#041F31"
 }
