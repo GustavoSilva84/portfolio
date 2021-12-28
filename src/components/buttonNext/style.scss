@@ -1,0 +1,20 @@
+.arrow-icon {
+
+  position: absolute;
+  bottom: 20px;
+  left: calc(50% - 18px);
+  
+  img {
+
+    width: 18px !important;
+    height: 28px !important;
+
+  }
+
+}
+
+.return {
+
+  transform: rotate(180deg);
+
+}
