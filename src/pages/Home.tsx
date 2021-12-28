@@ -1,4 +1,4 @@
-import { useEffect, ReactHTMLElement } from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 import { ButtonNext } from '../components/buttonNext/ButtonNext';
@@ -95,7 +95,7 @@ export function Home() {
 
         </div>
 
-        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/uy87wsyqs7.svg?alt=media&token=b5f3038a-3747-4997-8340-53281bcea676"/>
+        <img alt="img" src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/uy87wsyqs7.svg?alt=media&token=b5f3038a-3747-4997-8340-53281bcea676"/>
 
         <ButtonNext nextSection="#about-me"/>
 
