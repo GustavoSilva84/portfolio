@@ -1,5 +1,6 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import Alert from '../components/alert/Index';
 
 import { ButtonNext } from '../components/buttonNext/ButtonNext';
 import { CardProjects } from '../components/cardProjects/CardProjects';
@@ -7,6 +8,8 @@ import { CardProjects } from '../components/cardProjects/CardProjects';
 import './style.scss';
 
 export function Home() {
+
+  const [showAlert, setShowAlert] = useState<boolean>(true);
 
   useEffect(() => {
     
@@ -75,6 +78,11 @@ export function Home() {
   return (
 
     <div id="page-home" className="texto-protegido"> 
+      
+      {showAlert
+        ? <Alert message="EmDesenvolvimento" close={setShowAlert}/>
+        : <></>
+      }
       
       <section className="section" id="start">
         

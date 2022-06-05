@@ -1,0 +1,46 @@
+.alert {
+  position: fixed;
+  width: 50%;
+  top: 10%;
+  left: calc(50%/2);
+  height: 500px;
+  background-color: #072c46;
+  opacity: 0.95;
+  z-index: 10;
+  font-size: 1.8rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.199);
+
+  h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    
+    span {
+      background: -webkit-linear-gradient(rgba(0, 245, 160, 1), rgba(0, 217, 245, 1));
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      // display: block;
+    }
+  } 
+
+  button {
+    background: none;
+    border: none;
+    outline: none;
+    position: absolute;
+    font-size: 2.2rem;
+    color: white;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+}
