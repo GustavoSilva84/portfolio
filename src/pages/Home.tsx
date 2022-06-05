@@ -138,7 +138,6 @@ export function Home() {
 
         <div id="container-contents">
 
-          // transformar em componente
           <div className="card">
             <img alt="img" src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a10e.appspot.com/o/8342yr4e23.svg?alt=media&token=5b8de4e0-7591-49b4-982b-af6230f8cbde"/>
             <span> JavaScript </span>
